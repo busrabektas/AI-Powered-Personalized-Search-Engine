@@ -29,6 +29,6 @@ def search_qdrant(query: str, top_k=5):
         print(payload['text'][:500] + "...\n")
         print("-" * 80)
 
-# 🔥 ÖRNEK ARAMA
+# Örnek ARAMA
 query_text = "History of anarchism"
 search_qdrant(query_text, top_k=3)
